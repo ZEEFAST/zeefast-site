@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#061326">
+  <meta name="description" content="ZEEFAST XCLOUD TECH — digital advertising, website development, creative services and technology learning.">
+  <title>ZEEFAST XCLOUD TECH | Digital Advertising & Technology</title>
+  <style>
+    :root{--bg:#040b17;--panel:#09182b;--panel2:#0d2340;--gold:#ffd34d;--cyan:#4adfff;--text:#f5f8ff;--muted:#b4c5dc;--line:#244365;--green:#18d99a}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif;line-height:1.6;overflow-x:hidden}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}.ambient{position:fixed;inset:0;z-index:-2;pointer-events:none;overflow:hidden;background:radial-gradient(ellipse at 15% 10%,#123e7560,transparent 45%),radial-gradient(ellipse at 90% 35%,#5b2b6b2e,transparent 38%),#040b17}.ambient:before,.ambient:after{content:"";position:absolute;width:55vw;height:55vw;border:1px solid #42cfff1b;border-radius:50%;animation:orbit 30s linear infinite;left:-20vw;top:10vh;box-shadow:0 0 0 45px #42cfff08,0 0 0 90px #42cfff06}.ambient:after{left:auto;right:-20vw;top:45vh;border-color:#ffd34d1b;animation-direction:reverse}@keyframes orbit{to{transform:rotate(360deg)}}.particles{position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:radial-gradient(#5edfff8a 1px,transparent 1px),radial-gradient(#ffd34d60 1px,transparent 1px);background-size:93px 93px,151px 151px;background-position:0 0,40px 60px;opacity:.14;animation:drift 24s linear infinite}@keyframes drift{to{background-position:93px 186px,191px 0}}.wrap{width:min(1160px,calc(100% - 36px));margin:auto}.topbar{position:sticky;top:0;z-index:10;background:#040b17dc;backdrop-filter:blur(16px);border-bottom:1px solid #ffffff12}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.04em}.logo svg{width:52px;height:52px;flex:0 0 52px}.logo span{display:block;line-height:1.15}.logo b{display:block;color:var(--gold);font-size:16px}.logo small{display:block;color:#c3d2e6;font-size:10px;letter-spacing:.18em;margin-top:5px}.navlinks{display:flex;gap:21px;align-items:center;font-size:13px;color:#d7e3f4}.navlinks a:hover{color:var(--gold)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:12px;padding:13px 19px;font-weight:850;border:1px solid #ffd34d80;background:linear-gradient(135deg,#ffe58c,#e8a91b);color:#111b2a;box-shadow:0 8px 25px #ffc63a1b;transition:transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-2px);box-shadow:0 12px 32px #ffc63a35}.btn.secondary{background:#0b1b30;color:#f6f8ff;border-color:#42cfff70}.hero{padding:74px 0 62px;display:grid;grid-template-columns:1.03fr .97fr;align-items:center;gap:48px;min-height:610px}.eyebrow{color:var(--cyan);font-size:12px;font-weight:900;letter-spacing:.2em;text-transform:uppercase}.hero h1{font-size:clamp(40px,5.4vw,68px);line-height:1.04;letter-spacing:-.045em;margin:16px 0 20px}.gold{color:var(--gold);text-shadow:0 0 28px #ffd34d21}.hero p{font-size:17px;color:var(--muted);max-width:600px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}.proof{display:flex;gap:16px;flex-wrap:wrap;color:#c3d5e9;font-size:12px}.proof span:before{content:'✓';color:var(--green);font-weight:900;margin-right:7px}.monitor-wrap{perspective:1000px;animation:float 6s ease-in-out infinite}@keyframes float{50%{transform:translateY(-9px)}}.monitor{padding:10px;border-radius:18px;background:linear-gradient(135deg,#d5e3f0,#263e5d 22%,#0b1423 65%,#8da8c0);box-shadow:0 35px 85px #0009,0 0 35px #24bfff20;transform:rotateY(-5deg)}.screen{position:relative;aspect-ratio:4/3;background:#020611;border:3px solid #101c2b;border-radius:9px;overflow:hidden}.ad-slide{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#020611;opacity:0;transform:scale(1.025);transition:opacity .9s,transform 4.5s}.ad-slide.active{opacity:1;transform:scale(1)}.live{position:absolute;z-index:2;bottom:9px;left:50%;transform:translateX(-50%);white-space:nowrap;padding:5px 10px;border-radius:30px;background:#03101ddd;border:1px solid #294866;color:#f3f9ff;font-size:9px;font-weight:900;letter-spacing:.13em}.live i{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--green);margin-right:6px;box-shadow:0 0 10px var(--green)}.monitor-neck{height:36px;width:22%;margin:auto;background:linear-gradient(90deg,#243951,#d3deeb,#526a84);clip-path:polygon(20% 0,80% 0,100% 100%,0 100%)}.monitor-foot{width:45%;height:12px;margin:auto;border-radius:50% 50% 8px 8px;background:linear-gradient(#b7c6d5,#273a50)}section{padding:74px 0}.section-head{text-align:center;max-width:760px;margin:0 auto 35px}.section-head h2{font-size:clamp(30px,4vw,44px);line-height:1.12;margin:9px 0 12px;letter-spacing:-.03em}.section-head p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}.card{border:1px solid var(--line);border-radius:18px;padding:23px;background:linear-gradient(145deg,#0b1c31ed,#07101df5);transition:transform .25s,border-color .25s,box-shadow .25s}.card:hover{transform:translateY(-5px);border-color:#4adfff9c;box-shadow:0 18px 35px #0004}.icon{font-size:29px}.card h3{margin:9px 0 7px;font-size:18px}.card p{margin:0;color:var(--muted);font-size:14px}.price{color:var(--gold);font-weight:950;font-size:25px;margin:12px 0}.duration{font-size:12px;color:var(--muted)}.mini-link{display:inline-block;margin-top:15px;color:var(--cyan);font-size:13px;font-weight:850}.split{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:stretch}.panel{padding:26px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,#0b1c31eF,#07101df5)}.list{padding:0;margin:15px 0 0;list-style:none;display:grid;gap:9px}.list li{color:#dbe6f5;font-size:14px}.list li:before{content:'✓';display:inline-grid;place-items:center;width:21px;height:21px;border-radius:50%;background:#0e593f;color:#8bffd0;margin-right:9px;font-size:12px;font-weight:900}.flyer-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.flyer{padding:10px;border:1px solid #2c4b6c;border-radius:17px;background:#08172a;overflow:hidden}.flyer svg{width:100%;height:auto;aspect-ratio:3/4;border-radius:10px;display:block}.flyer h3{font-size:15px;margin:12px 4px 3px}.flyer p{font-size:12px;color:var(--muted);margin:0 4px 7px}.learning-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}.learn-card{padding:21px 17px;border:1px solid #244365;border-radius:17px;background:linear-gradient(145deg,#0b1e35ed,#040b18f5);transition:transform .25s,border-color .25s}.learn-card:hover{transform:translateY(-5px);border-color:var(--gold)}.learn-card h3{font-size:16px;margin:8px 0}.learn-card p{font-size:13px;color:var(--muted);margin:0}.notice{margin-top:20px;padding:18px;border:1px solid #ffd34d55;border-radius:15px;color:#cbd9ed;background:#08162a}.contact{display:grid;grid-template-columns:1fr 1fr;gap:22px}.contact-box{Padding:28px;border:1px solid #2a4b6d;border-radius:20px;background:#09182b}.contact-box h3{font-size:24px;margin:0 0 9px}.contact-box p{color:var(--muted)}.socials{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.socials a{border:1px solid #294b6e;border-radius:10px;padding:9px 12px;font-size:13px}.footer{padding:30px 0;border-top:1px solid #ffffff14;color:#94a9c4;font-size:12px}.footer .wrap{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.reveal{opacity:0;transform:translateY(16px);transition:opacity .65s,transform .65s}.reveal.visible{opacity:1;transform:none}.mobile-menu{display:none}form{display:grid;gap:11px}input,select,textarea{width:100%;padding:12px 13px;border:1px solid #294765;border-radius:10px;background:#061224;color:#fff;font:inherit}textarea{min-height:95px;resize:vertical}label{font-size:12px;color:#c3d5e9}@media(max-width:900px){.hero{grid-template-columns:1fr;gap:32px;padding-top:55px}.hero-copy{max-width:720px}.monitor-wrap{width:min(680px,100%);margin:auto}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.learning-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.navlinks{gap:12px}.navlinks a{font-size:12px}}@media(max-width:680px){.wrap{width:min(100% - 28px,1160px)}.nav{min-height:66px}.navlinks{display:none;position:absolute;top:66px;left:0;right:0;padding:16px;background:#061326f7;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch}.navlinks.open{display:flex}.navlinks a{padding:8px}.mobile-menu{display:inline-flex}.nav>.btn{display:none}.logo svg{width:43px;height:43px}.logo b{font-size:13px}.logo small{font-size:8px}.hero{padding:45px 0 38px;min-height:0}.hero h1{font-size:clamp(38px,11vw,54px)}.hero p{font-size:15px}.grid,.split,.flyer-grid,.contact{grid-template-columns:1fr}.learning-grid{grid-template-columns:repeat(2,minmax(0,1fr))}section{padding:55px 0}.card,.panel{padding:20px}.section-head{margin-bottom:25px}.proof{gap:9px}.monitor{padding:6px}.live{font-size:7px;bottom:5px}}@media(max-width:380px){.learning-grid{grid-template-columns:1fr}.actions .btn{width:100%}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+  <div class="ambient"></div>
+  <div class="particles"></div>
+
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="logo" href="#home" aria-label="ZEEFAST XCLOUD TECH home">
+        <!-- Inline SVG logo -->
+        <svg viewBox="0 0 64 64" role="img" aria-label="ZEEFAST logo">
+          <title>ZEEFAST lightning cloud logo</title>
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0" stop-color="#4adfff"/>
+              <stop offset="1" stop-color="#ffd34d"/>
+            </linearGradient>
+            <filter id="f1" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.3"/>
+            </filter>
+          </defs>
+          <rect width="64" height="64" rx="12" fill="#061224"/>
+          <g transform="translate(6,6)" filter="url(#f1)">
+            <path d="M10 26c6-8 18-8 24-2 6 6 4 16-6 20-10 4-24-4-22-18z" fill="url(#g1)" opacity="0.95"/>
+            <path d="M26 8 L20 20 L28 20 L22 34 L34 20 L26 20 Z" fill="#061224"/>
+          </g>
+        </svg>
+
+        <span><b>ZEEFAST XCLOUD TECH</b><small>FAST · RELIABLE · TRUSTED</small></span>
+      </a>
+      <button class="btn secondary mobile-menu" id="menuToggle" type="button" aria-expanded="false" aria-controls="navlinks">☰ Menu</button>
+      <nav class="navlinks" id="navlinks">
+        <a href="#advertising">Advertising</a>
+        <a href="#services">Services</a>
+        <a href="#learning">Learning & Tech</a>
+        <a href="#flyers">Flyers & Guides</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn" href="https://wa.me/2349025153012?text=Hello%20ZEEFAST%20XCLOUD%20TECH" target="_blank" rel="noopener noreferrer">Chat on WhatsApp ↗</a>
+    </div>
+  </header>
+
+  <main id="home">
+    <div class="wrap hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Digital advertising · Technology · Creative solutions</span>
+        <h1>Make your brand <span class="gold">impossible to ignore.</span></h1>
+        <p>Promote your business, build your online presence, develop digital products and grow your skills with ZEEFAST XCLOUD TECH.</p>
+        <div class="actions">
+          <a class="btn" href="#advertising">Explore ad packages ↓</a>
+          <a class="btn secondary" href="https://wa.me/2349025153012?text=Hello%20ZEEFAST%20XCLOUD%20TECH%2C%20I%20want%20to%20make%20an%20enquiry." target="_blank" rel="noopener noreferrer">Talk to our team ↗</a>
+        </div>
+        <div class="proof">
+          <span>Creative digital services</span>
+          <span>Web and app development</span>
+          <span>Learning pathways</span>
+        </div>
+      </div>
+
+      <div class="monitor-wrap" aria-label="Animated desktop monitor showing ZEEFAST advertisements">
+        <div class="monitor">
+          <div class="screen">
+            <!-- Inline SVG slides (placeholders) -->
+            <svg class="ad-slide active" viewBox="0 0 800 600" role="img" aria-label="Advert rate poster">
+              <title>Advert rate poster</title>
+              <rect width="100%" height="100%" fill="#08192a"/>
+              <rect x="40" y="40" rx="18" width="720" height="520" fill="#123b57"/>
+              <text x="50%" y="50%" fill="#ffd34d" font-size="36" font-weight="700" text-anchor="middle" dominant-baseline="middle">Advert Rate Poster</text>
+            </svg>
+
+            <svg class="ad-slide" viewBox="0 0 800 600" role="img" aria-label="Pricing flyer">
+              <title>Pricing flyer</title>
+              <rect width="100%" height="100%" fill="#071227"/>
+              <rect x="40" y="40" rx="18" width="720" height="520" fill="#274a6a"/>
+              <text x="50%" y="50%" fill="#4adfff" font-size="36" font-weight="700" text-anchor="middle" dominant-baseline="middle">Pricing Flyer</text>
+            </svg>
+
+            <svg class="ad-slide" viewBox="0 0 800 600" role="img" aria-label="Business ad packages">
+              <title>Business ad packages</title>
+              <rect width="100%" height="100%" fill="#03101b"/>
+              <rect x="40" y="40" rx="18" width="720" height="520" fill="#2b3e58"/>
+              <text x="50%" y="50%" fill="#ffd34d" font-size="36" font-weight="700" text-anchor="middle" dominant-baseline="middle">Business Ad Packages</text>
+            </svg>
+
+            <svg class="ad-slide" viewBox="0 0 800 600" role="img" aria-label="Website development flyer">
+              <title>Website development flyer</title>
+              <rect width="100%" height="100%" fill="#021019"/>
+              <rect x="40" y="40" rx="18" width="720" height="520" fill="#163546"/>
+              <text x="50%" y="50%" fill="#4adfff" font-size="36" font-weight="700" text-anchor="middle" dominant-baseline="middle">Website Development</text>
+            </svg>
+
+            <div class="live"><i></i> ADVERTISEMENT PREVIEW · AUTO ROTATING</div>
+          </div>
+        </div>
+        <div class="monitor-neck"></div>
+        <div class="monitor-foot"></div>
+      </div>
+    </div>
+
+    <section id="advertising">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Put your business in the spotlight</span>
+          <h2>Advertising packages</h2>
+          <p>Choose a campaign duration that suits your goals. Message us to confirm placements, availability and the campaign details before payment.</p>
+        </div>
+
+        <div class="grid">
+          <article class="card reveal">
+            <span class="icon">🚀</span>
+            <h3>24-Hour Campaign</h3>
+            <div class="price">₦10,000</div>
+            <div class="duration">Campaign duration: 24 hours</div>
+            <p>A short promotional campaign for a launch, offer or announcement.</p>
+            <a class="mini-link" href="https://wa.me/2349025153012?text=Hello%2C%20I%27m%20interested%20in%20the%2024-hour%20advertising%20package%20for%20N10%2C000." target="_blank" rel="noopener noreferrer">Enquire about this package ↗</a>
+          </article>
+
+          <article class="card reveal">
+            <span class="icon">📣</span>
+            <h3>3-Day Campaign</h3>
+            <div class="price">₦25,000</div>
+            <div class="duration">Campaign duration: 3 days</div>
+            <p>Keep a promotion visible across several days and support repeated awareness.</p>
+            <a class="mini-link" href="https://wa.me/2349025153012?text=Hello%2C%20I%27m%20interested%20in%20the%203-day%20advertising%20package%20for%20N25%2C000." target="_blank" rel="noopener noreferrer">Enquire about this package ↗</a>
+          </article>
+
+          <article class="card reveal">
+            <span class="icon">📅</span>
+            <h3>1-Week Campaign</h3>
+            <div class="price">₦40,000</div>
+            <div class="duration">Campaign duration: 1 week</div>
+            <p>A week-long campaign to help your audience discover your brand.</p>
+            <a class="mini-link" href="https://wa.me/2349025153012?text=Hello%2C%20I%27m%20interested%20in%20the%201-week%20advertising%20package%20for%20N40%2C000." target="_blank" rel="noopener noreferrer">Enquire about this package ↗</a>
+          </article>
+
+          <article class="card reveal">
+            <span class="icon">🗓️</span>
+            <h3>2-Week Campaign</h3>
+            <div class="price">₦50,000</div>
+            <div class="duration">Campaign duration: 2 weeks</div>
+            <p>Extend the promotion window for campaigns that need more time.</p>
+            <a class="mini-link" href="https://wa.me/2349025153012?text=Hello%2C%20I%27m%20interested%20in%20the%202-week%20advertising%20package%20for%20N50%2C000." target="_blank" rel="noopener noreferrer">Enquire about this package ↗</a>
+          </article>
+
+          <article class="card reveal">
+            <span class="icon">🌟</span>
+            <h3>1-Month Campaign</h3>
+            <div class="price">₦60,000</div>
+            <div class="duration">Campaign duration: 1 month</div>
+            <p>Maintain a longer promotional presence and build campaign consistency.</p>
+            <a class="mini-link" href="https://wa.me/2349025153012?text=Hello%2C%20I%27m%20interested%20in%20the%201-month%20advertising%20package%20for%20N60%2C000." target="_blank" rel="noopener noreferrer">Enquire about this package ↗</a>
+          </article>
+
+          <article class="card reveal">
+            <span class="icon">🎬</span>
+            <h3>Creative Ad Requests</h3>
+            <div class="price">Ask us</div>
+            <div class="duration">Picture, video and promotional content</div>
+            <p>Discuss creative formats and campaign requirements for your brand.</p>
+            <a class="mini-link" href="https://wa.me/2349025153012?text=Hello%2C%20I%20want%20to%20discuss%20a%20custom%20advert%20creative." target="_blank" rel="noopener noreferrer">Discuss a custom ad ↗</a>
+          </article>
+        </div>
+
+        <p class="notice">Campaign pricing and platform placement are shown as provided in your flyer. Confirm current availability, deliverables and reach estimates with us before ordering.</p>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">From idea to launch</span>
+          <h2>Digital services</h2>
+          <p>Practical support for your online presence, creative work and technology projects.</p>
+        </div>
+
+        <div class="split">
+          <div class="panel reveal">
+            <span class="icon">🌐</span>
+            <h3>Websites & digital products</h3>
+            <ul class="list">
+              <li>Website design and development</li>
+              <li>Responsive landing pages and business websites</li>
+              <li>UI/UX design, wireframes and prototypes</li>
+              <li>Web hosting setup and SSL guidance</li>
+              <li>Customer enquiry and chat integrations</li>
+              <li>Programming and website maintenance</li>
+            </ul>
+          </div>
+
+          <div class="panel reveal">
+            <span class="icon">🛠️</span>
+            <h3>Creative & technical support</h3>
+            <ul class="list">
+              <li>Graphic design and brand assets</li>
+              <li>Social media campaign creative</li>
+              <li>Link building and online visibility support</li>
+              <li>File recovery guidance and device support</li>
+              <li>Programming troubleshooting and project help</li>
+              <li>Responsible digital research and OSINT education</li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="notice">We only support lawful, authorized work. We do not offer access to other people's accounts, private data, devices or systems without permission.</p>
+      </div>
+    </section>
+
+    <section id="learning">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Learn, build & grow</span>
+          <h2>Learning & Tech Academy</h2>
+          <p>Explore beginner-friendly learning paths for creating websites, mobile apps, digital products and creative portfolios. Ask us about training availability, format and fees.</p>
+        </div>
+
+        <div class="learning-grid">
+          <article class="learn-card reveal"><span class="icon">💻</span><h3>Programming Fundamentals</h3><p>HTML, CSS, JavaScript, PHP, coding logic and good development habits.</p></article>
+          <article class="learn-card reveal"><span class="icon">🎨</span><h3>UI/UX Design</h3><p>User flows, wireframes, prototypes, accessibility and interface design.</p></article>
+          <article class="learn-card reveal"><span class="icon">📱</span><h3>Flutter Development</h3><p>Dart basics, mobile layouts, app navigation, APIs and testing.</p></article>
+          <article class="learn-card reveal"><span class="icon">🌍</span><h3>Web Development</h3><p>Front-end, back-end concepts, databases, responsive layouts and deployment.</p></article>
+          <article class="learn-card reveal"><span class="icon">🐍</span><h3>Python Programming</h3><p>Python basics, automation, data handling, APIs and small projects.</p></article>
+          <article class="learn-card reveal"><span class="icon">🔗</span><h3>Blockchain & DEX Concepts</h3><p>Learn blockchain fundamentals, wallets, smart contracts and decentralized exchange concepts with a focus on security.</p></article>
+          <article class="learn-card reveal"><span class="icon">🤖</span><h3>AI & Digital Tools</h3><p>Responsible AI workflows, prompt writing, research and productivity tools.</p></article>
+          <article class="learn-card reveal"><span class="icon">🖌️</span><h3>Graphic Design</h3><p>Colour, typography, visual hierarchy, social graphics and brand consistency.</p></article>
+        </div>
+
+        <div class="notice reveal"><strong style="color:var(--gold)">Ready to learn?</strong> Tell us your current level and what you want to build. <a class="mini-link" href="https://wa.me/2349025153012?text=Hello%20ZEEFAST%20XCLOUD%20TECH%2C%20please%20share%20your%20available%20learning%20paths%20and%20fees." target="_blank" rel="noopener noreferrer">Ask about learning options ↗</a></div>
+      </div>
+    </section>
+
+    <section id="flyers">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Our work & information</span>
+          <h2>Flyers & guides</h2>
+          <p>Browse the supplied ZEEFAST promotional artwork and an OSINT resource infographic.</p>
+        </div>
+
+        <div class="flyer-grid">
+          <article class="flyer reveal">
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Open advert & influencing rate">
+              <svg viewBox="0 0 600 800" role="img" aria-label="Advert & influencing rate">
+                <title>Advert & Influencing Rate</title>
+                <rect width="100%" height="100%" rx="12" fill="#071827"/>
+                <rect x="20" y="20" width="560" height="760" rx="10" fill="#163a56"/>
+                <text x="50%" y="50%" fill="#ffd34d" font-size="28" text-anchor="middle" dominant-baseline="middle">Advert & Influencing Rate</text>
+              </svg>
+            </a>
+            <h3>Advert & Influencing Rate</h3>
+            <p>Promotional services and contact information.</p>
+          </article>
+
+          <article class="flyer reveal">
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Open campaign pricing flyer">
+              <svg viewBox="0 0 600 800" role="img" aria-label="Campaign pricing">
+                <title>Campaign Pricing</title>
+                <rect width="100%" height="100%" rx="12" fill="#081229"/>
+                <rect x="20" y="20" width="560" height="760" rx="10" fill="#2a506e"/>
+                <text x="50%" y="50%" fill="#4adfff" font-size="28" text-anchor="middle" dominant-baseline="middle">Campaign Pricing</text>
+              </svg>
+            </a>
+            <h3>Campaign Pricing</h3>
+            <p>Campaign durations and prices.</p>
+          </article>
+
+          <article class="flyer reveal">
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Open website development flyer">
+              <svg viewBox="0 0 600 800" role="img" aria-label="Website development">
+                <title>Website Development</title>
+                <rect width="100%" height="100%" rx="12" fill="#07101a"/>
+                <rect x="20" y="20" width="560" height="760" rx="10" fill="#1b3a4f"/>
+                <text x="50%" y="50%" fill="#4adfff" font-size="28" text-anchor="middle" dominant-baseline="middle">Website Development</text>
+              </svg>
+            </a>
+            <h3>Website Development</h3>
+            <p>Website design and development services.</p>
+          </article>
+
+          <article class="flyer reveal">
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Open business ad packages">
+              <svg viewBox="0 0 600 800" role="img" aria-label="Business ad packages">
+                <title>Business Ad Packages</title>
+                <rect width="100%" height="100%" rx="12" fill="#04121a"/>
+                <rect x="20" y="20" width="560" height="760" rx="10" fill="#28425a"/>
+                <text x="50%" y="50%" fill="#ffd34d" font-size="28" text-anchor="middle" dominant-baseline="middle">Business Ad Packages</text>
+              </svg>
+            </a>
+            <h3>Business Ad Packages</h3>
+            <p>More advertising artwork.</p>
+          </article>
+
+          <article class="flyer reveal">
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Open OSINT resources guide">
+              <svg viewBox="0 0 600 800" role="img" aria-label="OSINT resources guide">
+                <title>OSINT resources guide</title>
+                <rect width="100%" height="100%" rx="12" fill="#071827"/>
+                <rect x="20" y="20" width="560" height="760" rx="10" fill="#264554"/>
+                <text x="50%" y="50%" fill="#4adfff" font-size="22" text-anchor="middle" dominant-baseline="middle">OSINT Resources Guide</text>
+              </svg>
+            </a>
+            <h3>OSINT Resources Guide</h3>
+            <p>Reference infographic for lawful open-source research and security awareness.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Let's work together</span>
+          <h2>Contact ZEEFAST XCLOUD TECH</h2>
+          <p>Tell us what you need and we'll help you identify the next step.</p>
+        </div>
+
+        <div class="contact">
+          <div class="contact-box reveal">
+            <h3>Start a conversation</h3>
+            <p>For advertising packages, website projects, creative work or learning enquiries, message us on WhatsApp.</p>
+            <a class="btn" href="https://wa.me/2349025153012?text=Hello%20ZEEFAST%20XCLOUD%20TECH%2C%20I%20want%20to%20make%20an%20enquiry." target="_blank" rel="noopener noreferrer">WhatsApp: 0902 515 3012 ↗</a>
+            <div class="socials">
+              <a href="https://solo.to/zeefast" target="_blank" rel="noopener noreferrer">🌐 Website / Social links</a>
+              <a href="https://www.tiktok.com/@official_skycent" target="_blank" rel="noopener noreferrer">♪ TikTok @official_skycent</a>
+            </div>
+          </div>
+
+          <div class="contact-box reveal">
+            <h3>Quick enquiry</h3>
+            <form id="enquiryForm">
+              <div>
+                <label for="name">Your name</label>
+                <input id="name" name="name" autocomplete="name" required placeholder="Enter your name">
+              </div>
+              <div>
+                <label for="topic">What are you interested in?</label>
+                <select id="topic" name="topic">
+                  <option>Advertising package</option>
+                  <option>Website development</option>
+                  <option>UI/UX design</option>
+                  <option>Flutter development</option>
+                  <option>Programming lessons</option>
+                  <option>Python programming</option>
+                  <option>Blockchain / DEX learning</option>
+                  <option>Graphic design</option>
+                  <option>Other service</option>
+                </select>
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required placeholder="Tell us a little about your request"></textarea>
+              </div>
+              <button class="btn" type="submit">Continue on WhatsApp ↗</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <span>© <span id="year"></span> ZEEFAST XCLOUD TECH</span>
+      <span>FAST · RELIABLE · TRUSTED — Your satisfaction is our priority.</span>
+      <a href="https://solo.to/zeefast" target="_blank" rel="noopener noreferrer">solo.to/zeefast</a>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      'use strict';
+
+      // Slides
+      const slides = Array.from(document.querySelectorAll('.ad-slide'));
+      let slideIndex = 0;
+      let slideIntervalId = null;
+      const prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      if (slides.length > 1 && !prefersReducedMotion) {
+        slideIntervalId = window.setInterval(() => {
+          slides[slideIndex].classList.remove('active');
+          slideIndex = (slideIndex + 1) % slides.length;
+          slides[slideIndex].classList.add('active');
+        }, 4200);
+      }
+
+      // Mobile menu toggle
+      const menu = document.getElementById('menuToggle');
+      const nav = document.getElementById('navlinks');
+      if (menu && nav) {
+        menu.addEventListener('click', () => {
+          const open = nav.classList.toggle('open');
+          menu.setAttribute('aria-expanded', String(open));
+        });
+
+        nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+          nav.classList.remove('open');
+          menu.setAttribute('aria-expanded', 'false');
+        }));
+      }
+
+      // Reveal on scroll
+      const revealItems = Array.from(document.querySelectorAll('.reveal'));
+      if ('IntersectionObserver' in window && !prefersReducedMotion) {
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(e => {
+            if (e.isIntersecting) {
+              e.target.classList.add('visible');
+              observer.unobserve(e.target);
+            }
+          });
+        }, { threshold: 0.12 });
+        revealItems.forEach(el => observer.observe(el));
+      } else {
+        revealItems.forEach(el => el.classList.add('visible'));
+      }
+
+      // Footer year
+      const yearEl = document.getElementById('year');
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+
+      // Enquiry form -> WhatsApp
+      const enquiryForm = document.getElementById('enquiryForm');
+      if (enquiryForm) {
+        enquiryForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const name = (document.getElementById('name') && document.getElementById('name').value || '').trim();
+          const topic = (document.getElementById('topic') && document.getElementById('topic').value) || '';
+          const message = (document.getElementById('message') && document.getElementById('message').value || '').trim();
+          if (!name || !message) {
+            return;
+          }
+          const text = `Hello ZEEFAST XCLOUD TECH, my name is ${name}. I'm enquiring about: ${topic}. Message: ${message}`;
+          const url = 'https://wa.me/2349025153012?text=' + encodeURIComponent(text);
+          // Open in new tab safely
+          window.open(url, '_blank', 'noopener,noreferrer');
+        });
+      }
+
+      // If you ever need to stop the slideshow programmatically:
+      // if (slideIntervalId !== null) { clearInterval(slideIntervalId); }
+    })();
+  </script>
+</body>
+</html>
